@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wegooooo.sdk",
+    "module": "mnn",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mnn-0.0.2.aar",
+          "url": "mnn-0.0.2.aar",
+          "size": 18208187,
+          "sha512": "e06f5972c765e9e15d7e6e1f297bf0c17fbe248c387bdd607a1323fdcf3d5e5fd7107435b46f3d7647fa8d47f3786f6901a88a2ab29702153ddd82681ffb570f",
+          "sha256": "b282df7e0d693a34754e1e1fae8e6392f71c087b74450edfda5361bf0f442e91",
+          "sha1": "27d191064e28f1c74ef70b8795d07132693f3f14",
+          "md5": "1e79fb81d88ff3191029a8d872cc6bda"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mnn-0.0.2.aar",
+          "url": "mnn-0.0.2.aar",
+          "size": 18208187,
+          "sha512": "e06f5972c765e9e15d7e6e1f297bf0c17fbe248c387bdd607a1323fdcf3d5e5fd7107435b46f3d7647fa8d47f3786f6901a88a2ab29702153ddd82681ffb570f",
+          "sha256": "b282df7e0d693a34754e1e1fae8e6392f71c087b74450edfda5361bf0f442e91",
+          "sha1": "27d191064e28f1c74ef70b8795d07132693f3f14",
+          "md5": "1e79fb81d88ff3191029a8d872cc6bda"
+        }
+      ]
+    }
+  ]
+}
