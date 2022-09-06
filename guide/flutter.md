@@ -61,7 +61,6 @@ static Future<Float32List> detect(String imagePath)
 ```
 /// 图片向量的批量插入
 ///
-/// @param context    上下文
 /// @param collection 单张或者多张图片向量集合
 /// @return 插入结果 [id, id)
 static Future<Int32List> vectorInsert(Float32List collection)
@@ -72,7 +71,6 @@ static Future<Int32List> vectorInsert(Float32List collection)
 ```
 /// 图片搜索
 ///
-/// @param context 上下文
 /// @param target  单张图片向量集合
 /// @param size    预期搜索返回结果的数量
 /// @return 搜索结果 [id, id)
