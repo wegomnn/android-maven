@@ -52,8 +52,9 @@ static void release()
 /// 图片向量解析
 ///
 /// @param imagePath 图片本地地址
+/// @param isCompress 是否 java 上层压缩图片
 /// @return 1000纬度的图片向量集合
-static Future<Float32List> detect(String imagePath)
+static Future<Float32List> detect(String imagePath, boolean isCompress)
 ```
 
 ### 3.5、图片向量保存手机本地文件缓存

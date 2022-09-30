@@ -3,7 +3,7 @@
 ## 1、开发环境
 
 - 开发工具: Android Studio 2020.3.1
-- minSdkVersion: 21 
+- minSdkVersion: 21
 - NDK: android-ndk-r19c
 - cmake: version 3.10.2
 
@@ -108,10 +108,11 @@ public static native void release()
 /**
  * 图片向量解析
  *
- * @param imagePath 图片本地地址
- * @return 图片向量
+ * @param imagePath  图片本地地址
+ * @param isCompress 是否 java 上层压缩图片
+ * @return 1000纬度的图片向量集合
  */
-public static native float[] detect(String imagePath)
+public static float[] detect(String imagePath, boolean isCompress)
 ```
 
 ### 3.5、图片向量保存手机本地文件缓存
